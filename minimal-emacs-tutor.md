@@ -6,7 +6,7 @@ I wrote it in this form by no reason. Hope you can enjoy this reading!
 
 ## Exit
 
-> The first question a newbie asks when he starts with a new text editor is: *How do I exit the goddam editor?*
+> The first question a newbie asks when he starts with a new text editor is: *How do I exit the editor?*
 
 | Command | Description       |
 | ------- | ----------------- |
@@ -15,7 +15,7 @@ I wrote it in this form by no reason. Hope you can enjoy this reading!
 
 ## Moving around
 
-> The second thing to do is moving instead of sticking at the blinking stupid cursor.
+> The second thing to do is moving instead of staring at the cursor.
 
 Luckily, Emacs is easy-to-use. You can move around just pressing ↑ ↓ ← → .
 
@@ -31,7 +31,7 @@ But there is another way, *there is always another way...*
 
 ### Cursor
 
-> The control key is often bound with commands of lines / characters.
+The control key is often bound with commands of lines / characters.
 
 | Command | Description            |
 | ------- | ---------------------- |
@@ -42,7 +42,7 @@ But there is another way, *there is always another way...*
 | C-a     | Beginning of   line    |
 | C-e     | End of line            |
 
-> On the other hand, alt (or called META) is often related to commands of sentences / texts.
+On the other hand, alt (or called META) is often related to commands of sentences / texts.
 
 | Command | Description             |
 | ------- | ----------------------- |
@@ -60,16 +60,18 @@ But there is another way, *there is always another way...*
 | C-x C-f | Find (open) a file      |
 | C-x C-s | Save a file             |
 
-**NOTICE: **
+```
+NOTICE: 
 
-- **The origin file will be renamed by adding a suffix "~" after updated.** 
-- **Sometimes you might see "#\<filename\>#" files. They are saved by Emacs automatically. (We'll talk this later.)**
+- The origin file will be renamed by adding a suffix "~" after updated.
+- Sometimes you might see "#\<filename\>#" files. They are saved by Emacs automatically. (We'll talk this later.)
+```
 
 ## Buffers
 
-> Buffers are texts which are stored by the opening Emacs.
->
-> They are not necessarily a real file until you save them.
+Buffers are texts which are stored by the opening Emacs.
+
+They are not necessarily a real file until you save them.
 
 | Command | Description   |
 | ------- | ------------- |
@@ -151,7 +153,9 @@ We do use commands in previous sections. Now take a look at how they work.
 | C-x        | Extends character   command      |
 | M-x        | Extends named command (function) |
 
-**NOTICE: The function ``previous-line`` refers to the command ``C-p`` .**
+```
+NOTICE: The function ``previous-line`` refers to the command ``C-p`` .
+```
 
 For example, one of the most frequently used command.
 
@@ -179,7 +183,9 @@ Some commands are "disabled" to avoid being used accidentally by newbies.
 
 Frames contains menus, scroll bars, echo areas, etc.
 
-**NOTICE: People may call the object "windows" which refer to "frames" here.**
+```
+NOTICE: People may call the object "windows" which refer to "frames" here.
+```
 
 | Command          | Description    |
 | ---------------- | -------------- |
