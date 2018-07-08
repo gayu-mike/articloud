@@ -1,0 +1,22 @@
+* Step 1
+  Use indentation as more reasonable visibility.
+
+* Step 2
+  Use 3x TAB and 3x S-TAB to cycle through your text.
+
+* Step 3
+  M-cursor (⬆️⬇️⬅️➡️) to structure your text(headings).
+
+* Step 4
+** GTD
+- states (todo/done)
+- tags (shopping/work)
+- schedule (deadlines...)
+- properties
+*** Interfaces (Challange)
+- calender
+- column view
+
+* Step 5
+  Capture with remember.el (contains templates battery).
+
