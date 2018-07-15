@@ -1,0 +1,72 @@
+* Minimal Vim Tutorial
+  *Inspired by Evil Tutor*
+
+** Move
+*** Cursor
+   Cursor movement in Vim is probably the fastest (comparing to any other editor) in the world.
+| Key | Movement |
+|-----+----------|
+| j   | down     |
+| k   | up       |
+| h   | left     |
+| l   | right    |
+*** Scroll
+| Key             | Movement              |
+|-----------------+-----------------------|
+| gg              | beginning of buffer   |
+| G               | end of buffer         |
+| : <line number> | move to specific line |
+** Edit
+*** Delete
+    :PROPERTY: Delete
+| Key | Action                 |
+|-----+------------------------|
+| x   | delete a character     |
+| dd  | delete a line          |
+| dw  | delete a word          |
+| d$  | delete til end of line |
+*** Copy
+    :PROPERTY: Copy
+| Key | Action                |
+|-----+-----------------------|
+| yy  | Copy the entire line. |
+*** Paste
+    Anything deleted by the [[Delete]] and [[Copy]] can be "put down" by the Paste key.
+| Key | Action |
+|-----+--------|
+| p   | Paste  |
+*** Change
+| Key | Action                                      |
+|-----+---------------------------------------------|
+| c   | Delete the character and enter insert mode. |
+| cw  | Change word.                                |
+** Search
+| Key | Action                   |
+|-----+--------------------------|
+| //  | Query for search forward |
+| ?   | Query for search forward |
+|-----+--------------------------|
+| n   | next occurrence          |
+| N   | previous occurrence      |
+** Replace
+| Key               | Command                                       |
+|-------------------+-----------------------------------------------|
+| r                 | Replace (in normal mode).                   |
+| R                 | Replace until <ESC> is pressed.            |
+| :s/<old>/<new>    | replace **the first** old with new on a line. |
+| :s/<old>/<new>/g  | replace old with new **globally** on a line.  |
+| :s/               |                                               |
+| :%s/<old>/<new>/g | replace old with new                          |
+| :%s/<old>/<new>/g | replace old with new                          |
+** Magic
+  *Undo* and *Repeat* is kind of magic spells in Vim.
+*** Undo
+| Key | Action                 |
+|-----+------------------------|
+| u   | Undo                   |
+| C-R | Undo the previous undo |
+*** Repeat
+| Key            | Action                       |
+|----------------+------------------------------|
+| .              | Repeat the last action       |
+| <number> <Key> | Repeat <Key> <number> times. |
