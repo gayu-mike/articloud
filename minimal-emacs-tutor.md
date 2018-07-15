@@ -198,9 +198,15 @@ Emacs can have several "windows" (i.e. help window).
 
 | Command   | Description                                       |
 | --------- | ------------------------------------------------- |
-| C-x 1     | Exist others and   stay at the current window     |
 | C-x 2     | Generate a   horizontal window with the same text |
+| C-x 3     | Vertical window                                   |
 | C-x 4 C-f | Open a file in a   vertical window                |
+| C-x 0     | Close current window                              |
+| C-x 4 0   | Close current window and delete buffer.           |
+| C-x 1     | Exist others and   stay at the current window     |
+| C-x ^     | Make current window taller.                       |
+| C-x }     | Make current window wider.                        |
+| C-x {     | Make current window narrower.                     |
 
  When you have two windows.
 
